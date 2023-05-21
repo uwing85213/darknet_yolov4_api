@@ -21,7 +21,7 @@ weights_Path = MODEL_PATH + 'coco.weights'
 detector = Yolov4YingRen(config_file_Path , data_file_path , weights_Path)
 
 img , objs = detector.catchObject_J(frame , min_score_thresh , 'ON') 
-ˋˋˋ
+```
 
 
 Example
